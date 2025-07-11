@@ -31,3 +31,4 @@ This repository contains a collection of scripts I wrote while learning **Python
 
 ## 🔧 Cisco Router Setup for SSH & Telnet Access
 
+[Cisco Router Config](https://github.com/dubeysatyam15/netmiko-paramiko-lab/blob/main/cisco_ssh_setup.txt)
