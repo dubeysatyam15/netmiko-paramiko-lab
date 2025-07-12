@@ -4,7 +4,7 @@ from scp import SCPClient
 ssh_client = paramiko.SSHClient()
 ssh_client.load_system_host_keys()
 ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-ssh_client.connect(hostname='192.168.208.132', port=22, username='dubeysam', password='samdubey', allow_agent=False, look_for_keys=False)
+ssh_client.connect(hostname='192.168.208.132', port=22, username='u1', password='cisco', allow_agent=False, look_for_keys=False)
 
 scp = SCPClient(ssh_client.get_transport())
 
