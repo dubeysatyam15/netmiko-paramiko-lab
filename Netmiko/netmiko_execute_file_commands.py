@@ -3,7 +3,7 @@ from netmiko import ConnectHandler
 router = {
     "device_type": "cisco_ios",
     "host": "10.15.4.20",
-    "username": "dubeysam",
+    "username": "cisco",
     "password": "cisco",
     "port": 22,
     "verbose": True,
