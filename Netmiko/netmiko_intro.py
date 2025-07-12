@@ -1,7 +1,7 @@
 #Method 1
 
 #from netmiko import Netmiko
-#net_connect = Netmiko(host='10.15.4.20', port='22', username='dubeysam', password='cisco', device_type='cisco_ios')
+#net_connect = Netmiko(host='10.15.4.20', port='22', username='u1', password='cisco', device_type='cisco_ios')
 
 # Method 2
 from netmiko import ConnectHandler
