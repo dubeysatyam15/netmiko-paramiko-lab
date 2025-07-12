@@ -9,7 +9,7 @@ from netmiko import ConnectHandler
 cisco_router = {
     'device_type': 'cisco_ios',
     'host': '10.15.4.20',
-    'username': 'dubeysam',
+    'username': 'u1',
     'password': 'cisco',
     'port': 22,        # optional, default is 22
     'secret': 'cisco', # this the enable password
